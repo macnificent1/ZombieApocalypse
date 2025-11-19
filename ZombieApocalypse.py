@@ -1,3 +1,7 @@
+# Derrick L. McIntyre
+# In this text adventure game, the player finds themselves in a zombie apocalypse and
+# must navigate through a series of locations to get the evacuation site.
+
 import random
 import time
 
@@ -335,4 +339,5 @@ def play_game():
  #   game_over("time ran out before you could reach the evacuation site.", player_name)
 
 if __name__ == "__main__":
+
     play_game()
